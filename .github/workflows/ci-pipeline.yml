@@ -27,7 +27,7 @@ jobs:
 
       - name: Upload Build Artifact
         # Lưu file .jar để kiểm tra sau khi build thành công
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: math-utils-jar
           path: target/*.jar
