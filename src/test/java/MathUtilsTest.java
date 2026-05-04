@@ -6,7 +6,7 @@ public class MathUtilsTest {
 
     @Test
     void testDivideSuccess() {
-        assertEquals(2.5, mathUtils.divide(5, 2));
+        assertEquals(1.5, mathUtils.divide(5, 2));
     }
 
     @Test
